@@ -9,13 +9,13 @@
 </head>
 
 <body>
-    <h1>Add an item;</h1>
-    <form method="POST" action="add">
+    <h1>Edit an item;</h1>
+    <form method="POST">
         {% csrf_token %}
         {{ form.as_p }}
         <div>
             <p>
-                <button type="submit">Add new todo item</button>
+                <button type="submit">Update todo item</button>
             </p>
             <a href='/'>Return to list</a>
         </div>
