@@ -1,9 +1,9 @@
 from django.test import TestCase
-
+from .models import Item
 # Create your tests here.
 
 
-class test_django(TestCase):
-
-    def test_this_works(self):
-        self.assertEqual(1, 1)
+class test_models(TestCase):
+    def test_done_defaults_to_false(self):
+        item = Item.objects.create(name='Test Todo Item')
+        self.assertFalse(item.done)
