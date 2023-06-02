@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-tr6mxh996a9*l$h#$*x^g^+-0qecr38t$m!mgxi%jrxx=_^m2e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ci-learn-django-todo.herokuapp.com']
+ALLOWED_HOSTS = ['ci-learn-django-todo.herokuapp.com',
+                 'https://git.heroku.com/ci-learn-django-todo.git']
 
 
 # Application definition
