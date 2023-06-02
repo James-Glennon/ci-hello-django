@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-tr6mxh996a9*l$h#$*x^g^+-0qecr38t$m!mgxi%jrxx=_^m2e
 DEBUG = True
 
 ALLOWED_HOSTS = ['ci-learn-django-todo.herokuapp.com',
-                 'https://git.heroku.com/ci-learn-django-todo.git']
+                 'https://git.heroku.com/ci-learn-django-todo.git',
+                 '8000-james-glennon-ci-hello-d-0zk7ue823n.us2.codeanyapp.com']
 
 
 # Application definition
